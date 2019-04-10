@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>극사실주의-나무위키</title>
+    <style>
+        a:link { color: blue; text-decoration: none;}
+        a:visited { color: blue; text-decoration: none;}
+        a:hover { color: blue; text-decoration: underline;}
+
+        del{
+            color: gray;
+        }
+        body{
+            font-size: 14px;
+            line-height:1.6em;
+            background-color: whitesmoke;
+        }
+        .top_sidebar{
+            margin: 0;  
+            height: 35px;
+            vertical-align: middle;
+            background-color: teal;
+            color: white;
+            font-size: 20px;
+        }
+        .top_search_bar{
+            display: inline;
+        }
+        .top_search_input{
+            width: 89%;
+        }
+        .top_search_button{
+            width: 9%;
+        }
+        .top_link{
+            display: inline;
+        }
+        .left_blank{
+            width: 7%;
+            display: inline-block;
+            margin: 0px;
+        }
+        .right_blank{
+            width: 26%;
+            display: inline-block;
+            margin: 0px;
+            align-items: flex-start;
+        }
+        .main{
+            width: 64%;
+            display: inline-block;
+            padding: 10px;
+            border:1px solid silver;
+            background-color: white;
+        }
+        .link_item{
+            text-align: right;
+        }
+        .last_time{
+            text-align: right;
+            font-size: 13px;
+        }
+        .classfication{
+            border:2px solid teal;
+            padding:0.5em;
+            line-height: 1em;
+            border-radius:0.5em;
+            -moz-border-radius: 0.5em;
+            -webkit-border-radius: 0.5em;
+        }
+        .about_sentence_top{
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+            background-color: black;
+            color: white;
+            height: 30px;
+        }
+        .about_sentence_bot{
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+            background-color: whitesmoke;
+            height: 30px;
+        }
+        .main_remark{
+            line-height:2em;
+        }
+        .precautions{
+            text-align: right;
+        }
+        .live{
+            display: inline-block;
+            background-color: white;
+        }
+        .topic{
+            border:1px solid teal;
+            background-color: teal;
+            color: white;
+            padding:0.1em;
+            line-height: 1em;
+            border-radius:0.5em;
+            -moz-border-radius: 0.5em;
+            -webkit-border-radius: 0.5em;
+            font-size: 12px;
+        }
+        .more_see{
+            text-align: right;
+            vertical-align: right;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="top_sidebar">
+        <a href="https://namu.wiki/">나무위키</a>
+        <a href="https://namu.wiki/RecentChanges">최근 변경</a>
+        <a href="https://namu.wiki/RecentDiscuss">최근 토론</a>
+        <select name="sidebar_special">
+            <option value="">게시판</option>
+            <hr>
+            <option value="">작성이 필요한 문서</option>
+            <option value="">고립된 문서</option>
+            <option value="">분류가 되지 않은 문서</option>
+            <option value="">편집된 지 오래된 문서</option>
+            <option value="">내용이 짧은 문서</option>
+            <option value="">내용이 긴 문서</option>
+            <option value="">차단 내역</option>
+            <option value="">RandomPage</option>
+            <option value="">파일 올리기</option>
+            <option value="">라이선스</option>
+        </select>
+        <select name="sidebar_live">
+            <option value="">나무라이브 대문</option>
+            <option value="">전체 채널</option>
+            <hr>
+            <option value="">오늘의 라이브</option>
+            <option value="">종합 헤드라인</option>
+            <hr>
+            <option value="">잡담 채널</option>
+            <option value="">유머/잇 채널</option>
+            <option value="">포인트 게임 채널</option>
+            <option value="">사회 채널</option>
+            <option value="">성소수자 채널</option>
+            <option value="">게임 채널</option>
+            <option value="">스포츠 채널</option>
+            <option value="">도시·지리 채널</option>
+        </select>
+    </div>
+
+
+    <div class="top_search_bar">
+        <input type="text" value="Search" class="top_search_input">
+        <input type="button" value="검색" class="top_search_button">
+    </div>
+    <div class="top_link">
+        ☆
+        <a href="https://namu.wiki/xref/%EA%B7%B9%EC%82%AC%EC%8B%A4%EC%A3%BC%EC%9D%98" class="link_item">역링크</a>
+        <a href="https://namu.wiki/discuss/%EA%B7%B9%EC%82%AC%EC%8B%A4%EC%A3%BC%EC%9D%98" class="link_item">토론</a>
+        <a href="https://namu.wiki/edit/%EA%B7%B9%EC%82%AC%EC%8B%A4%EC%A3%BC%EC%9D%98" class="link_item">편집</a>
+        <a href="https://namu.wiki/history/%EA%B7%B9%EC%82%AC%EC%8B%A4%EC%A3%BC%EC%9D%98" class="link_item">역사</a>
+        <a href="https://namu.wiki/acl/%EA%B7%B9%EC%82%AC%EC%8B%A4%EC%A3%BC%EC%9D%98" class="link_item">ACL</a>
+    </div>
+    <hr>
+    
+    <div class="left_blank">
+        </div>
+    <div class="main">
+        <h1>극사실주의</h1>
+        <div class="last_time">최근 수정 시각: 2019-02-28 14:44:19</div>
+        <div class="classfication">분류:
+            <a href="https://namu.wiki/w/%EB%B6%84%EB%A5%98:%EB%AF%B8%EC%88%A0%EC%82%AC">미술사</a>
+        </div>
+        <ul>
+            <li>상위 항목</li>
+            <ul>
+                <li><a href="https://namu.wiki/w/%EB%AF%B8%EC%88%A0%EC%82%AC%20%EA%B4%80%EB%A0%A8%20%EC%A0%95%EB%B3%B4">미술사
+                        관련 정보</a></li>
+            </ul>
+        </ul>
+        <div class="about_sentence_top">서양 미술사의 시대 · 사조</div>
+        <div class="about_sentence_bot">[ 펼치기 · 접기 ]</div>
+        극사실주의 極寫實主義<br>
+        Hyperrealism, Super Realism<br><br>
+        <img src="homework1_img1.jpg" width="100%" value="img1">
+        <img src="homework1_img2.jpg" width="100%" value="img2">
+        <div class="main_text">
+            <del>사진을 어렵게 찍는 방법</del>
+            <br>
+            극 사실주의작가 로베르토 베르나디(Roberto Bernardi) 의 작품
+            <br>
+            캔버스에 유화.
+            <br><br>
+            1960년대 후반 미국에서 일어난 새로운 미술경향으로, 현실을 있는 그대로 완벽하게 그려내는 기법. 포토리얼리즘(Photorealism)<a id="id1" href="#id1_info">[1]</a>과
+            <a href="https://namu.wiki/w/%EC%9E%A5%20%EB%B3%B4%EB%93%9C%EB%A6%AC%EC%95%BC%EB%A5%B4">장 보드리야르</a>의 철학<a
+                id="id2" href="#id2s_info">[2]</a>을 기반으로 만들어진 미술
+            경향이다. <a href="https://namu.wiki/w/%EC%82%AC%EC%A7%84">사진</a> 이나 실물처럼 극사실적으로 그림을 그리는 방식을 취한다. 확대하면 흐려지거나
+            깨지는 사진<strong>보다</strong>
+            사실적인 화풍을 추구할 때도 있기 때문에 그만큼 많은 시간과 실력을 요구한다.
+            <br><br>
+            <a href="https://namu.wiki/w/%EB%AF%B8%EC%88%A0%20%EA%B4%80%EB%A0%A8%20%EC%A0%95%EB%B3%B4">작가마다 사용하는 재료가
+                다르며</a>
+            실물, 상상, 생각으로 그리기도 하지만 대개 사진을 레퍼런스 삼아 그린다. 그도 그럴 것이, 조금이라도 움직이거나 빛의 방향이 달라지거나 한다면 그리기 어려워지기
+            때문. <del>만약 그 상태로 그렸다면 완성작품은 극사실주의가 아닌 창작물로 보이는 효과를 가진다</del>
+            <br><br>
+            <a href="https://namu.wiki/w/%EC%9C%A0%ED%88%AC%EB%B8%8C" 유투브></a>나 <a href="https://namu.wiki/w/SNS">SNS</a>에서
+            "정말 진짜같이 그리는 그림"등의 제목으로 떠다니곤 한다.
+            <br><br>
+            주의해야 할 것은, 극사실주의와 사진은 '사실적인' 그림을 만드는 것이 목적이긴 하지만 <strong>결국 그 사실감이란 것은 작가의 주관이 들어간 것.</strong> 물체를 있는 그대로
+            찍는다는
+            사진 역시, 실제로는 작가의
+            의도에 따라서 조명과 셔터 타이밍만으로도 수없이 다른 결과와 느낌을 줄 수 있으며, 사실적이라는 그림 역시 '사실성'을 재현하는 과정에서 작가의 주관이 들어간다. 실제로 우리가 보는 사물은
+            극사실주의
+            그림처럼 화려해 보이지 않는 경우가 많다는 것을 유념하자. <del>뽀샵을 생각하면 된다</del>
+            <br><br>
+            일부 평론가들은 극사실주의가 철학적으로도 의미가 있다고 주장한다. 이런 주장을 펼치는 사람들은 장 보드리야르가 이야기한 <a href="https://namu.wiki/w/%EC%8B%9C%EB%AE%AC%EB%9D%BC%EC%8B%9C%EC%98%B9">시뮬라시옹</a>을
+            끌어들여, 가상인 그림이 현실보다 더 현실같고 매력적인 현대 사회의
+            세태를 표현한 것이라고 주장한다. 역설적인 상황을 만들어 관객이 이런 현대시대의 상황이 아이러니함을 느끼도록 유도한다는 것이다.
+            <br><br>
+            하지만 다른 한편으로는 '베껴 그리기'보다 나은 것이 무엇인가 하는 비판도 존재한다. 사실 극사실주의라는 것 자체가 사진이 등장한 20세기의 미술계의 경향(<a href="https://namu.wiki/w/%EB%AA%A8%EB%8D%94%EB%8B%88%EC%A6%98">모더니즘</a>)에
+            정면으로 대치되는 것으로,
+            이러한 경향은 현대에 와서 더 강해지기 시작했는데, 비교적 이해하기 쉬운 극사실화를 더 호의적으로 보는 일반인의 시야와 달리 실제 미술계에선 회의적 시선이 많다. 일단 당연한 얘기지만 사진을
+            찍는 게
+            극사실 그림을 그리는 것보다 훨씬 더 효율적이고 간편하다. 굳이 사실적인 것을 보여주려고 일일이 붓질하며 그리는 건 자동차와 경주 대결하는 것만큼이나 미련한 짓일 뿐이다. 일부 사람들은 이를
+            예술가의
+            공력(또는 노력, 예술혼)이 들어갔다느니 하는 말로 옹호하지만, 솔직히 그냥 눈으로 보기에는 사진이나 극사실주의나 거기서 거기다. 일반인들도 처음 볼 때는 '대단하다'라고 평가하지만 여러 번
+            보다보면
+            '차라리 사진을 찍지'하는 평을 하게 된다.
+            <br><br>
+            게다가 위에서 언급한 것처럼 극사실화에는 작가의 개성이 들어가기 어렵다는 점에서 그 한계가 분명하다. 현대 미술의 패러다임은 어디까지나 <strong>기존에 없던 새로운 시도를 하는 것</strong>에
+            있다. 이미 남들이 했던
+            것을 따라하는 것은 경제적인 이득을 추구하는 상업예술의 영역에 있는 것이다.<a id="id3" href="#id3_info">[3]</a> 새로운 것을 추구하지 않는 예술가는 곤경에 빠지게
+            될
+            수밖에 없다. <a href="https://namu.wiki/w/%ED%91%9C%EC%A0%88">표절</a> 문제는 오늘날 예술계에서 매우 심각하게
+            거론되는 문제기 때문. 저런 극사실주의 작품도 원 사진 저작권의 문제나, 다른 작품과의 분위기의 유사성 문제에서 벗어나기 어렵다.
+            <br><br>
+            사진을 보고 그리거나, 실제 사물과 사람을 보며 그리기 때문에 판타지나 이 세상에 없는 물건을 '사실주의'가 아닌 '극사실주의'로 그려낼 수 없다. 허구, 상상의 표현은 '<a href="https://namu.wiki/w/%EC%82%AC%EC%8B%A4%EC%A3%BC%EC%9D%98">사실주의</a>'까지가
+            한계다.
+            정확히 말하자면 극사실 기법으로 그려낼 수는 있지만, 실체가 없으므로 내용상 극사실이 되지 못 하는 것.
+            하지만 위에 서술된 <strong>현대미술의 메이저한 사조에 대한 반발의 발로</strong>라는 해석도 있다.
+            <br><br>
+            극사실주의 그림이 이렇게 예술적으로는 한계가 있을지 몰라도 상업적으로는 필요한 분야가 있는데, 바로 생물 도감에 들어가는 그림이다. 살아 움직이고 있는 생물을 초점 흔들림 없이 사진으로 찍는
+            데는
+            한계가 있으며, 색깔이나 질감 등도 보여주기 어렵다. 수중 생물, 새, 맹수, 경계심이 강한 동물 같으면 근접 사진을 얻는 것조차 힘들며 카메라 렌즈에 의한 형상 왜곡 또한 피할수 없다.
+            원하는
+            자세로 보여주기는 더욱 힘들다. 하지만 그림으로 하면 작가는 여러 장의 사진, 동영상, 박제나 털가죽 등을 실물을 참고하여 정밀하고도 원하는 모습으로 그려낼수 있게 된다. 물론 생물만이 아니라
+            전자제품, 자동차 등도 사진보다 더 그림이 실물같은 모습을 보여줄수 있다. 심지어 멸종된 생물까지도 그려낼 수는 있다. <a id="id4" href="#id4_info">[4]</a>
+            <br><br>
+            극사실 주의 조각도 몇몇 작가가 하고 있으며, 주로 인물을 대상으로 한다. 스케일을 달리 하거나 현실에 없는 형상으로 만들어 내기도 하며, 사람과 똑같이 보이되 사람은 아니라는 데서 오는
+            독특한
+            감정을 불러일으키는 것이 목적이다.<a id="id5" href="#id5_info">[5]</a> <a id="id6" href="#id6_info">[6]</a>
+            <br><br>
+            참고로 진위가 의심되는 이야기긴 하지만, <a href="https://namu.wiki/w/%EA%B3%A0%EB%8C%80%20%EA%B7%B8%EB%A6%AC%EC%8A%A4">고대
+                그리스</a>
+            시대에 제욱시스와 파라시우스라는 두 화가의 일화가 이와 유사하다. 서로 라이벌 관계였던 둘이 어느 날 그림 대결을 벌였는데, 제욱시스가 그린
+            포도가 너무 사실적이어서 새가 날아와 그걸 쪼아먹으려고 들었고, 이에 의기양양해진 제욱시스가 파라시우스한테 다가갔더니만, 왠 커튼으로 그림을 반쯤 가려놓은 상태라서 열어제치려 들었는데 알고보니
+            <strong>커튼까지 죄다 그림</strong>이였고, 그걸 열어제치려 한 시점에서 변명할 수 없을 정도로 속아넘어갔다는 걸 깨닫고는 GG를 쳤다는 내용.
+            <br>
+            우리 나라에도 비슷한 이야기가 있는데, 신라 시대의 화가 <a href="https://namu.wiki/w/%EC%86%94%EA%B1%B0">솔거</a>(연대미상)가 황룡사 벽에 그린
+            소나무
+            그림이 너무 진짜 같아 새들이 날아와 앉으려다 부딫쳐 죽는 일이 자주 있었고, 세월이 흘러 그림이
+            낡아 다른 화공이 덧칠을 하자 새들이 더이상 안 날아들게 되었다는 이야기가 <a href="https://namu.wiki/w/%EC%82%BC%EA%B5%AD%EC%82%AC%EA%B8%B0">삼국사기</a>에
+            실려 있다. 절이 불타 없어졌기에 역시 진위는 알수 없다.
+            <br>
+            그 외에도 <a href="https://namu.wiki/w/%ED%99%94%EB%A3%A1%EC%A0%90%EC%A0%95">화룡점정</a> 같은 고사성어에서 묘사하는 그림도 이와 유사할
+            것으로
+            추정되지만, 실제 그림이 남아있다든가 하는 건 아니기에 진짜 이야기인지는 알 수가 없다.
+            <br><br><br>
+        </div>
+        <div class="main_remark">
+            <hr>
+            <a id="id1_info" href="#id1">[1]</a> 사진의 영향을 받은 미술 경향이다.
+            <br>
+            <a id="id2_info" href="#id2">[2]</a> 보드리야르의 철학은 현대사회에서 파생실재(hyperréel)가 실재(réel)를 압도하는 현상, 쉽게 말해서 가짜가 진짜보다
+            더
+            진짜처럼 받아들여지고, 이에 더하여 가짜가 진짜를 대체하는
+            현상을 탐구한다. 여기서 가짜를 보드리야르는 (제3열의) 시뮬라크르(simulacre)라고 하였고, 이것의 동사적 형태를 시뮬라시옹(simulation)이라고 하였다. 자세한 사항은 보드리야르
+            항목을
+            참조.
+            <br>
+            <a id="id3_info" href="#id3">[3]</a> 하지만 현실은 미술계도 이미 상업화한 지 오래지만. 오늘날 순수미술계는 새로움을 찾는 것이 아니라 <a href="https://namu.wiki/w/%EC%96%B8%ED%94%8C">허접한
+                작가의 작품을 새롭다고 꾸며낸다.</a> 실제로 광고기업 출신 홍보전문가가 작가의 작품성을
+            만들어내고 띄우는 일은 이미 예전부터 공공연하게 벌어지고 있었다.
+            <br>
+            <a id="id4_info" href="#id4">[4]</a> 생물 도감은 어쩔수 없이 그림을 쓰는 것이지만, 무생물의 경우에는 결과가 사진보다 더 나을 것도 없는데 시간과 비용이 더 많이
+            들어가기 때문에 많이 하지는 않는다. 현실적으로는 도감의 그림도
+            비용과 시간 때문에 극사실까지는 아니고 사실주의 정도로 마무리하는 경우가 더 많다.
+            <br>
+            <a id="id5_info" href="#id5">[5]</a> <a href="https://namu.wiki/w/%EB%B6%88%EC%BE%8C%ED%95%9C%20%EA%B3%A8%EC%A7%9C%EA%B8%B0">불쾌한
+                골짜기</a>에서 느끼는 두려움 비슷한 감정과는 다르다. 움직이지 않을 뿐 사람과 완전히 똑같기 때문이 신기하게는 느껴도 불쾌한 감정은 잘 일어나지 않는다. 재미있느 것은 스케일이 크든
+            작든
+            마찬거지.
+            <br>
+            <a id="id6_info" href="#id6">[6]</a> 제작 기법과 결과물로 보면 영화 촬영 등에 쓰이는 특수분장이나 더미도 극사실을 추구하지만, 이는 목적이 전혀 다르므로 극사실
+            조각이라
+            부르기에는 어폐가 있다.
+            <br><br><br>
+        </div>
+        <hr>
+        <div class="precautions">
+            <br>
+            이 저작물은 <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/kr/">CC BY-NC-SA 2.0 KR</a>에 따라 이용할 수
+            있습니다.
+            (단, 라이선스가 명시된 일부 문서 및 삽화 제외)
+            기여하신 문서의 저작권은 각 기여자에게 있으며, 각 기여자는 기여하신 부분의 저작권을 갖습니다.
+            <br><br>
+            나무위키는 백과사전이 아니며 검증되지 않았거나, 편향적이거나, 잘못된 서술이 있을 수 있습니다.
+            <br>
+            나무위키는 위키위키입니다. 여러분이 직접 문서를 고칠 수 있으며, 다른 사람의 의견을 원할 경우 직접 토론을 발제할 수 있습니다.
+            <br>
+        </div>
+    </div>
+    <div class="right_blank">
+        <iframe src="https://www.mediacategory.com/servlet/drc?no=166158&kno=166158&kwrdSeq=0&s=21486&adgubun=RM&gb=RM&sc=7b581856b0aa1ecaf9126a20892572e3&mc=21486&userid=ibossedu&u=ibossedu&product=nor&slink=https%253A%252F%252Fwww.i-boss.co.kr%252Fab-5473%253Futm_source%253Dmobon%2526utm_medium%253Dcpc%2526utm_campaign%253Dad_edu&rtb_param=WN01E28C01W013_51_2_RM__0329170418147721486&freqLog=2&viewTime=_21486_1553846658777_4837&hId=19&subadgubun=RM&abt=B31|C45|D13|A07&salePriceYn=N&targetingTime=20180727171452">
+        </iframe>
+        
+        <iframe src="https://pixel.mathtag.com/click/img?mt_aid=1080435456734172802&mt_id=6647125&mt_adid=223248&mt_sid=4584008&mt_exid=4&mt_inapp=0&mt_uuid=fc815b52-f698-4b00-bd5f-7e52929c3880&mt_3pck=https%3A//adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCjXdkgtGdXN-YFcf52gS43q-ABe2j97xNt8CduIQBwI23ARABIABgm8PphKQpggEXY2EtcHViLTQ0ODEzOTUzMjI0NTA0MjDIAQmoAwGqBMcBT9CC0KDJfkKj3Q_U7SsgMcME1ixf9WsUP0ta7dCJPuLsBDstzANlTPaEjrxYy3f5XdBYCaQuI_XxexX4E_jQxbF0dfW33MCo8YAUNPKzprjvxWcZPDK8ZNK1QcwR7sFTGP6JL5mXKbEqhtmkuY-dMB0dehlGubPd5qZVuHwOFHouv1TtyVL7g-pgfRDemeTWIgNgVF-8M08OeT5tlaH98hVJsjsF5hO5WJ3xMR8MDvD8CkFLNm7pz8dLhgqYVlWa9-A5vg_PmYAGk-qyw8mUweqrAaAGIagHpr4bqAfZyxuoB8_MG9gHANIIBQiAARAB%26num%3D1%26sig%3DAOD64_3AClELv6q0q3ICIUhsBNuaPdMpdA%26client%3Dca-pub-4481395322450420%26adurl%3D&mt_lp=http%3A//bundang.g-well.co.kr&redirect=http%3A%2F%2Fbundang.g-well.co.kr">
+        </iframe>
+    </div>
+    <hr>
+    <h3>오늘의 라이브</h3>
+    <div class="live">
+        <div class="topic">유머/이슈</div>
+        <a href="https://namu.live/b/live/495917">뭘해도 칭찬해주는 칭찬 톡방</a>
+    </div>
+    <div class="live">
+        <div class="topic">사회</div>
+        <a href="https://namu.live/b/live/495923">20대 남성 지지율 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ</a>
+    </div>
+    <div class="live">
+        <div class="topic">사회</div>
+        <a href="https://namu.live/b/live/495977">유시춘 아들의 은밀한취미</a>
+    </div>
+    <div class="live">
+        <div class="topic">사회</div>
+        <a href="https://namu.live/b/live/495980">남자들은 안심하고 화장실에 갈 수 있는 이유</a>
+    </div>
+    <div class="live">
+        <div class="topic">사회</div>
+        <a href="https://namu.live/b/live/495069">(속보) 북 핵실험장 인근서 규모 2.8 지진
+        </a>
+    </div>
+    <hr>
+    <a href="https://namu.live/b/live" class="more_see">[더 보기]</a>
+    <hr>
+</body>
+
+</html>

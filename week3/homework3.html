@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2015117532_박명훈</title>
+</head>
+
+<body>
+    <h3>input으로 color바꾸기</h3>
+    <hr>
+    <script>
+        var a = 2;
+        var b = 4.5;
+        var c = 6.8;
+        var num = prompt("숫자를 입력하세요.", "");
+        if (num < 2)
+            document.body.style.backgroundColor = "blue";
+        else if (num < 4)
+            document.body.style.backgroundColor = "green";
+        else
+            document.body.style.backgroundColor = "red";
+        function button() {
+            var x = (a + b + c+ num)/4;
+            document.write("평균: " + x);
+        }
+    </script>
+    <input type="button" onclick='button()' value='버튼' style="background-color:red"/>
+</body>
+
+</html>

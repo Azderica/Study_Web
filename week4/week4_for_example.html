@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>for 문</title>
+</head>
+<body>
+<h3>for 문으로 10px~35px 크기 출력</h3>
+<hr>
+<script>
+	for(var size=10; size<=35; size+=5) { // 5씩 증가
+		document.write("<span ");
+		document.write("style='font-size:" + size + "px'>");
+		document.write(size + "px");
+		document.write("</span>");
+	}
+</script>
+	<hr>
+	<span style='font-size: 10px'>10px</span>
+	<span style='font-size: 15px'>15px</span>
+	<span style='font-size: 20px'>20px</span>
+	<span style='font-size: 25px'>25px</span>
+	<span style='font-size: 30px'>30px</span>
+	<span style='font-size: 35px'>35px</span>
+</body>
+</html>
